@@ -8,3 +8,15 @@
 // Example 2:
 // Input: vowelChecker(‘a’)
 // Output: ‘This is a vowel’
+
+const vowels =['a','e','i','o','u'];
+
+function vowelChecker(x){
+    if (vowels.includes(x)){
+        console.log(x +" This is a vowel");
+    }
+    else{
+        console.log(x +" This is not a vowel");
+    }
+}
+console.log(vowelChecker('a'));
