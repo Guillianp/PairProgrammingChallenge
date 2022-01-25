@@ -31,6 +31,3 @@ console.log(gdc_two_numbers(4,8));
 
 
 
-
-
-

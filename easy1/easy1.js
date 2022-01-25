@@ -7,6 +7,7 @@
 // 	  Odd Numbers: [7, 11, 15]
 
 
+
 const array = [2,4,7,11,15,16];
 
 function splitRandomArray( numbers ){ 
@@ -37,14 +38,6 @@ function splitRandomArray( numbers ){
 
 
 
-
-
-//split array into seperate numbers
-//check each number  with if 
-// if number mod 2 = 0, number is even
-//if number mod 2 != 0, number is odd
-//if even, add to new even array
-//if odd, add to new odd array
 
 
 

@@ -9,6 +9,7 @@
 // Input: vowelChecker(‘a’)
 // Output: ‘This is a vowel’
 
+
 const vowels =['a','e','i','o','u'];
 
 function vowelChecker(x){
@@ -20,3 +21,4 @@ function vowelChecker(x){
     }
 }
 console.log(vowelChecker('a'));
+
