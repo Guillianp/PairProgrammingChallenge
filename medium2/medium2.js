@@ -8,3 +8,20 @@
 // Input: String 1: Things are good
 // 	  String 2: Dogs eat ants
 // Output: False
+
+let text = "So dark the con of man";
+let text2 = "Madonna of the Rocks";
+
+function anagrams (x,y){
+    var stringX = x.toLowerCase().replace(/[^a-z\d]/g, '').split('').sort().join('');
+    var stringY = y.toLowerCase().replace(/[^a-z\d]/g, '').split('').sort().join('');
+
+
+if( stringX === stringY){
+    console.log(true)
+}
+else{
+    console.log(false)
+}
+}
+console.log(anagrams(text,text2));

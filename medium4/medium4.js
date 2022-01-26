@@ -19,3 +19,34 @@
 // Example 2:
 // car.runErrands();
 // Output: old mileage: 26033 | new mileagea: 26063
+
+let car ={
+        make:"Toyota",
+        model:"Camry",
+        year:1990,
+        mileage:2000,
+        color:"blue",
+        
+        driveToWork: function(){
+            console.log (`Old mileage is ${this.mileage} and new mileage is  ${this.mileage + 33}`)
+            this.milage += 33;
+        },
+
+        driveAroundTheWorld: function(){
+            console.log (`Old mileage is ${this.mileage} and new mileage is  ${this.mileage + 24000}`)
+            this.milage += 24000;
+        },
+
+        runErrands: function(){
+            console.log (`Old mileage is ${this.mileage} and new mileage is  ${this.mileage + 30}`)
+            this.milage += 30;
+        }
+
+
+
+    }
+    car.driveToWork()
+    car.driveAroundTheWorld()
+    car.runErrands()
+
+    
