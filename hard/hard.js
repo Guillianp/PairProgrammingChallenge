@@ -22,7 +22,7 @@ function brackets(str){
     }
 }
 
-var string1 = "{hello world}"; {f[]]
+var string1 = "{hello world}"; 
 var string2 = "{hello world]";
 
 console.log(brackets(string1));
